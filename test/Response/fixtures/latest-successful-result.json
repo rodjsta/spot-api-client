@@ -1,0 +1,36 @@
+{
+    "response": {
+        "feedMessageResponse": {
+            "count": 1,
+            "feed": {
+                "id": "LXij8mO5LIoE1Mg74X7pKx1JA8C5o385",
+                "name": "My Spot Feed",
+                "description": "My 2016 Sailing Vacation",
+                "status": "ACTIVE",
+                "usage": 0,
+                "daysRange": 7,
+                "detailedMessageShown": true,
+                "type": "SHARED_PAGE"
+            },
+            "totalCount": 1,
+            "activityCount": 0,
+            "messages": {
+                "message": {
+                    "@clientUnixTime": "0",
+                    "id": 651341874,
+                    "messengerId": "0-8222286",
+                    "messengerName": "TYSC 42",
+                    "unixTime": 1478330156,
+                    "messageType": "TRACK",
+                    "latitude": 29.54802,
+                    "longitude": -95.04385,
+                    "modelId": "SPOT2",
+                    "showCustomMsg": "Y",
+                    "dateTime": "2016-11-05T07:15:56+0000",
+                    "batteryState": "LOW",
+                    "hidden": 0
+                }
+            }
+        }
+    }
+}
