@@ -32,11 +32,13 @@ do {
         break;
     }
 
+    /** @var \TravisAMiller\SpotTrackerApi\Spot\Message $message */
     foreach ($page->getMessages() as $message) {
         printf(
-            "Location: %F %F (ID: %d)\n",
+            "Location: %F %F @ %d (ID: %d)\n",
             $message->getLatitude(),
             $message->getLongitude(),
+            $message->getTimestamp(),
             $message->getId()
         );
     }

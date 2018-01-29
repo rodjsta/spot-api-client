@@ -85,7 +85,7 @@ class ApiClient
      *
      * @return Response\MessagesResponse
      */
-    public function messages($filter): Response\MessagesResponse
+    public function messages($filter = null): Response\MessagesResponse
     {
         if (is_array($filter)) {
             $filter = new Request\Filter\MessagesFilter($filter);
